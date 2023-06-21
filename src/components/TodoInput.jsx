@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
-export default function TodoInput({ handleAdd}) {
+export default function TodoInput({ handleAdd }) {
   const [todo, setTodo] = useState("");
   const handleTodo = (item) => {
     setTodo(item);
   };
   return (
-    <div className="todoInput">
+    <form onSubmit={() => handleAdd(todo)} className="todoInput">
       <input
         type="text"
         id="todo"
@@ -17,9 +17,9 @@ export default function TodoInput({ handleAdd}) {
         value={todo}
         name="todo"
       />
-      <button onClick={()=>handleAdd(todo)} className="btn btn-red">
+      <button type="submit" className="btn btn-red">
         Add
       </button>
-    </div>
+    </form>
   );
 }

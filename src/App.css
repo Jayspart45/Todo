@@ -43,6 +43,7 @@ body {
   font-size: 18px;
   padding: 6px 15px;
   margin-right: 2px;
+  outline: none;
 }
 .todo .btn {
   background: #d9c5b2;
@@ -51,7 +52,6 @@ body {
   color: #34312d;
   font-size: 18px;
   border-radius: 2px;
-  /* box-shadow: 3px 3px 1px rgba(245, 245, 245, 0.3); */
 }
 
 .todo .btn:hover {
@@ -84,7 +84,7 @@ body {
   margin-bottom: 5px;
   display: flex;
   padding: 2px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .btn-remove:hover {
@@ -94,17 +94,18 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   background: #34312d;
-  box-shadow: inset 1px 1px 2px rgba(245, 245, 245);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #d9c5b2;
-  border-radius: 2px;
+  width: 5px !important;
+  height: 10px;
+  border-radius: 100px;
 }
