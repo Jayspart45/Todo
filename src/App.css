@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&family=Teko:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, */
+  /* Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  /* font-family: "Prompt", sans-serif; */
+  font-family: "Teko", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #efefef;
+  background: url(./assets/images/img.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  background: #34312d;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  font-size: 70px;
+  font-weight: 200;
+  color: #efefef;
+  text-transform: uppercase;
+}
+.todo .input {
+  width: 400px;
+  font-size: 18px;
+  padding: 6px 15px;
+  margin-right: 2px;
+}
+.todo .btn {
+  background: #d9c5b2;
+  padding: 8px 25px;
+  border: none;
+  color: #34312d;
+  font-size: 18px;
+  border-radius: 2px;
+  /* box-shadow: 3px 3px 1px rgba(245, 245, 245, 0.3); */
+}
+
+.todo .btn:hover {
+  background: transparent;
+  border: 1px solid #d9c5b2;
+  color: #efefef;
+  box-shadow: inset -3px -3px 3px rgba(245, 245, 245, 0.3);
+}
+.todo ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  margin-top: 20px;
+  background: #efefef;
+  overflow-y: scroll;
+  padding: 5px 0;
+}
+.todo ul::-webkit-scrollbar-thumb {
+  width: 10px !important;
+  background: #d9c5b2 !important;
+}
+.todo ul li {
+  width: 350px;
+  list-style: none;
+  color: #34312d;
+  border: 2px solid #d9c5b2;
+  text-align: center;
+  margin-bottom: 5px;
+  display: flex;
+  padding: 2px;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-remove:hover {
+  background: #34312d !important;
+  border: none !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #34312d;
+  box-shadow: inset 1px 1px 2px rgba(245, 245, 245);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d9c5b2;
+  border-radius: 2px;
+}
