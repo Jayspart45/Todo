@@ -5,8 +5,12 @@ export default function TodoInput({ handleAdd }) {
   const handleTodo = (item) => {
     setTodo(item);
   };
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    handleAdd(todo)
+  };
   return (
-    <form onSubmit={() => handleAdd(todo)} className="todoInput">
+    <form onSubmit={handleSubmit} className="todoInput">
       <input
         type="text"
         id="todo"

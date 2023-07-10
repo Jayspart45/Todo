@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230626T113000
+DTEND;TZID=Asia/Kolkata:20230626T143000
+DTSTAMP:20230623T050902Z
+ORGANIZER;CN=jeyalakshmi@prograd.org:mailto:jeyalakshmi@prograd.org
+UID:2c3ppe42ep8ggk4pbq50nnr8mi@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=jayaramakrishnan.2001059@srec.ac.in;X-NUM-GUESTS=0:mailto:jayaramak
+ rishnan.2001059@srec.ac.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=harshini.2001052@srec.ac.in;X-NUM-GUESTS=0:mailto:harshini.2001052@
+ srec.ac.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=karunambikai.2005037@srec.ac.in;X-NUM-GUESTS=0:mailto:karunambikai.
+ 2005037@srec.ac.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=muthuram.2001126@srec.ac.in;X-NUM-GUESTS=0:mailto:muthuram.2001126@
+ srec.ac.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=shikhar.s@prograd.org;X-NUM-GUESTS=0:mailto:shikhar.s@prograd.org
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=jeyalakshmi@prograd.org;X-NUM-GUESTS=0:mailto:jeyalakshmi@prograd.org
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=nivetha.2005106@srec.ac.in;X-NUM-GUESTS=0:mailto:nivetha.2005106@sr
+ ec.ac.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sheshan.2001219@gmail.com;X-NUM-GUESTS=0:mailto:sheshan.2001219@gma
+ il.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/xkk-znkz-zxc
+X-MICROSOFT-CDO-OWNERAPPTID:-1811657500
+CREATED:20230623T050900Z
+DESCRIPTION:Please Join Accordingly<br><br><table dir="ltr"><colgroup><col 
+ /><col /><col /><col /></colgroup><tbody><tr><td><b>Name</b></td><td><b>Ema
+ il</b></td><td><b>Date</b></td><td><b>Timing</b></td></tr><tr><td>Harshini 
+ A</td><td>harshini.2001052@srec.ac.in</td><td>26-06-2023</td><td>11:30</td>
+ </tr><tr><td>Jayaramakrishnan.P</td><td>jayaramakrishnan.2001059@srec.ac.in
+ </td><td>26-06-2023</td><td>12:00</td></tr><tr><td>Muthuram.M</td><td>muthu
+ ram.2001126@srec.ac.in</td><td>26-06-2023</td><td>12:30</td></tr><tr><td>Sh
+ eshan S</td><td>sheshan.2001219@gmail.com</td><td>26-06-2023</td><td>01:00<
+ /td></tr><tr><td>Nivetha k</td><td>nivetha.2005106@srec.ac.in</td><td>26-06
+ -2023</td><td>01:30</td></tr><tr><td>Karunambikai D</td><td>karunambikai.20
+ 05037@srec.ac.in</td><td>26-06-2023</td><td>02:00</td></tr></tbody></table>
+ \n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/xkk-znkz-z
+ xc\nOr dial: (US) +1 402-527-4015 PIN: 850776965#\nMore phone numbers: http
+ s://tel.meet/xkk-znkz-zxc?pin=4503851101640&hs=7\n\nLearn more about Meet a
+ t: https://support.google.com/a/users/answer/9282720\n\nPlease do not edit 
+ this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230623T050900Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:DevRev & ProGrad - Round 2 Interview
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

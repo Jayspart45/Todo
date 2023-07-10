@@ -5,7 +5,6 @@ import TodoInput from "./TodoInput";
 export default function Todo() {
   const [data, setData] = useState(() => {
     const localvalue = localStorage.getItem("Items");
-    console.log(localvalue);
     if (localvalue == null) return [];
     return JSON.parse(localvalue);
   });
@@ -40,7 +39,6 @@ export default function Todo() {
     });
   };
 
-  console.log(data);
   return (
     <div className="todo">
       <h1 className="text">Todo</h1>

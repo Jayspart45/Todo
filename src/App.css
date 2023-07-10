@@ -15,7 +15,12 @@ body {
   justify-content: center;
   align-items: center;
   background: #efefef;
-  background: url(./assets/images/img.svg);
+  background: linear-gradient(
+      to right,
+      rgba(243, 243, 244, 0.5),
+      rgba(243, 243, 244, 0.5)
+    ),
+    url(./assets/images/img.svg);
   background-position: center;
   background-size: cover;
 }
@@ -108,4 +113,43 @@ body {
   width: 5px !important;
   height: 10px;
   border-radius: 100px;
+}
+@media (width<=992px) {
+  .todo {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 20px;
+  }
+  .todo .input {
+    width: 200px;
+  }
+  .todo ul {
+    width: 310px;
+  }
+  .todo ul li {
+    width: 290px;
+  }
+}
+@media (width<=576px) {
+  .todo {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px;
+  }
+  .todo .input {
+    width: 200px;
+  }
+  .todo ul {
+    width: 310px;
+  }
+  .todo ul li {
+    width: 290px;
+  }
+}
+@media (width<=375px) {
+  .todo {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 20px;
+  }
 }
